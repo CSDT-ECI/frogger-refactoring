@@ -51,7 +51,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '17'
-          distribution: 'adoptium'  # Puedes cambiar a 'zulu', 'oracle', etc.
+          distribution: 'oracle'  # Puedes cambiar a 'zulu', 'oracle', etc.
           
       - name: Analyze with SonarCloud
 
